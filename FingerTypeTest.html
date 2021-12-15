@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="FingerTypeTest.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <title>تست سرعت تایپ </title>
+</head>
+<body>
+    
+    <div id="speedTestAria">
+        <header>
+                <span>تست سرعت تایپ</span>
+                <div>
+                    <label>انتخاب زبان:</label>
+                    <select name="lang" class="btn">
+                        <option value="fa" selected>فارسی</option>
+                        <option value="en" >انگلیسی</option>
+                    </select>
+                </div>
+        </header>        
+        <div id="words" class="directionRTL">
+            <p></p>          
+        </div>
+        <footer class="directionRTL">
+            <input type="text" name="inputWord" value="" class="floatRight" maxlength="15" placeholder="نوشتن را شروع کنید...">
+            <span id="timer" class="btn floatRight" tabindex="1">۱:۰۰</span>
+            <span id="spiner" class="btn floatRight">
+                    <!-- <i  class="fa">&#xf021;</i> -->
+                    &#8635;
+                    <!-- &#x21BB; -->
+            </span>
+        </footer>
+       
+    </div>
+    
+    <div id="resultTestArea" class="hidden"> 
+        <p id="endMessage" class="message">
+            پایان تست! <br/>
+            زمان شما به پایان رسید.            
+        </p>
+        <p id="resultMessage">
+
+        </p>
+        
+        <div id="resume" class="btn">
+            &#8635;
+        </div>
+    </div>
+   
+    
+    <script src="FingerTypeTest.js"></script>
+</body>
+</html>

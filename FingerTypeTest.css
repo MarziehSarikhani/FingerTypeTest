@@ -1,0 +1,202 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+body{
+    direction: rtl;
+    background: url('images/body-bg.png') repeat;
+    font-family: calibri;
+    /* min-height: 1000px; */
+}
+*:focus{
+    outline: none;
+}
+
+.directionRTL{
+    direction: rtl;
+}
+.directionLTR{
+    direction: ltr;
+}
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+.btn{
+    background-color: #2FC2C8;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+.btn:hover{
+    background-color: rgb(36, 147, 151);
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.bgWords{
+    background-color: #999;
+}
+.hidden{
+    display: none;
+}
+
+#speedTestAria{
+    max-width:1000px ;
+    width: 97%;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #777;
+    user-select: none;
+}
+
+#speedTestAria header span{
+    float: right;
+    padding: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+#speedTestAria header div{
+    float: left;
+    padding: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+#words{
+    overflow: hidden;
+    margin: 10px auto;
+    clear: both;
+    height: 150px;
+    width: 95%;
+    border: 2px solid #888;
+    border-radius: 5px;
+   
+}
+#words p{
+    font-size: 34px;
+    line-height: 2em;
+    padding: 5px;
+}
+#words p span{
+    padding: 5px;
+}
+#speedTestAria footer{
+    margin: auto;
+    padding: 10px;
+    height: 60px;
+    width: 95%;
+    background-color: #555;
+    border-radius: 5px;
+}
+input[name="inputWord"]{
+   border-radius: 2px;
+   width: 200px;  
+    height: 40px;
+    font-size: 24px;
+    padding: 5px;
+    background-color: white;
+}
+input:focus{
+  box-shadow: 0 0 5px rgb(81,203,238);
+  border:1px solid rgb(81,203,238);
+}
+#speedTestAria footer span{
+    width: 50px;
+    height: 40px;    
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+#resultTestArea{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #777;
+    user-select: none;
+}
+#resultTestArea p{
+    
+    padding: 10px;
+}
+#resultTestArea:nth-child(2) table{
+    padding: 10px;
+    margin: 10px auto;
+    /* width: 80%; */
+    font-size: 20px;
+    text-align: right;
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+ td,th{
+    border-bottom:2px solid gray;
+    padding: 5px;;
+}
+/* th:first-child{
+    border-right:2px solid gray;
+} */
+/* td:last-child{
+    border-left:2px solid gray;
+} */
+th:only-child{
+    background-color: grey;
+    /* border-left:2px solid gray; */
+    color: white;
+}
+tr:nth-child(2n+1){
+    background-color: #ddd;
+}
+caption{
+    padding: 10px;
+}
+#resume{
+    width: 50px;
+    height: 40px;    
+    margin:5px auto;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+.message{
+    position: fixed;
+    bottom: 5%;
+    left: 0%;
+    right: 0%;
+    width:100%;
+    height:80px;
+    text-align: center;
+    line-height: 1.5;
+    background-color: rgb(36, 147, 151);
+    color: white;
+    font-size: 18px;
+    padding-top: 49px;
+    border: 1px solid rgb(23, 96, 99);
+
+}
+::placeholder{
+    font-size:20px;
+}
